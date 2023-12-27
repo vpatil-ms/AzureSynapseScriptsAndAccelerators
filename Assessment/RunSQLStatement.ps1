@@ -28,7 +28,7 @@ function RunSQLStatement
 		$ReturnValues = @{}
 		$ConnOpen = 'No'
 
-		#Open the query Fie is one is provided
+		#Open the query File if one is provided
 		if ($InputFile) 
 		{ 
 			$filePath = $(resolve-path $InputFile).path 
